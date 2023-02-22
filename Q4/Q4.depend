@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677091935 source:c:\users\acer\documents\assignment6\q4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
