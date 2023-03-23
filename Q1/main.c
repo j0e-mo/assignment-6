@@ -6,7 +6,7 @@ int main()
     char str[256];
     int i;
     printf("Enter a string:\n ");
-    gets(str);
+    fgets(str);
 
     for(i=0; str[i]!='\0'; i++)
     {
