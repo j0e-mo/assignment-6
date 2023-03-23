@@ -13,17 +13,15 @@ int main()
   	printf("Enter the Character you want to Search for:\n");
   	scanf("%c", &ch);
 
-  	for(i=0;i<=strlen(str);i++)
+  	for(i=0;i<strlen(str);i++)
   	{
   		if(str[i]==ch)
 		{
-  			indicator++;
+  			printf("We found '%c' at position %d\n", ch, i + 1);
 			break;
  		}
 	}
-    if(indicator == 0)
+    if(i==strlen)
   		printf("We haven't found your character '%c'\n", ch);
-	else
-		printf("We found '%c' at position %d\n", ch, i + 1);
   	return 0;
 }
